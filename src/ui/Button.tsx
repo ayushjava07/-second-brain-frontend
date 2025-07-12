@@ -13,8 +13,8 @@ export interface ButtonProps {
 }
 
 const variantClasses: Record<Variant, string> = {
-  primary: 'bg-blue-100 text-blue-800 hover:bg-blue-200 focus:ring-2 focus:ring-blue-500',
-  secondary: 'bg-blue-700 text-white hover:bg-blue-800 focus:ring-2 focus:ring-blue-500',
+  primary: 'bg-purple-600 text-white hover:bg-purple-700 focus:ring-2 focus:ring-blue-500',
+  secondary: 'bg-purple-200 text-purple-700 hover:bg-purple-300 focus:ring-2 focus:ring-blue-500',
 };
 
 const sizeClasses: Record<Size, string> = {
